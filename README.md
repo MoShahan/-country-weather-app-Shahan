@@ -1,1 +1,1 @@
-# -country-weather-app-Shahan
+This is a weather application project created by me using REACT JS
