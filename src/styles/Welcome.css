@@ -1,0 +1,27 @@
+.welcomeTitle {
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+.homeButtonBox {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.homeButton {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    width: 200px;
+    transition: all 0.3s;
+    border-radius: 14px;
+}
+
+.homeButton:hover {
+    transform: scale(1.2);
+    color: blue;
+    background-color: green;
+}
