@@ -1,0 +1,18 @@
+.capitalInfoTable {
+    text-align: left;
+    margin: auto;
+    font-size: 1.1rem;
+}
+
+.capitalInfoTable thead {
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.capitalInfoTable td {
+    padding: 10px 70px;
+}
+
+.capitalInfoTable tbody td {
+    color: white;
+}

@@ -1,0 +1,16 @@
+#searchInput {
+    background-color: lightblue;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+.searchBox {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 14px;
+}
