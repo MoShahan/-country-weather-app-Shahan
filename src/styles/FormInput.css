@@ -1,0 +1,30 @@
+#searchInput {
+    background-color: lightblue;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 25px;
+    border: none;
+}
+
+.searchBox {
+    background-color: rgba(64, 54, 211, 0.658);
+    padding: 20px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 14px;
+}
+
+.searchBox button {
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgba(181, 181, 240, 0.39);
+    transition: all 0.3s;
+}
+
+.searchBox button:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    background-color: #9d9dee;
+}

@@ -1,0 +1,44 @@
+.capitalBody {
+    background-image: url("../images/weather-capital-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.capitalBody>h1 {
+    padding: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: rgb(243, 217, 182);
+    margin: 0 275px;
+    border-radius: 10px;
+}
+
+.capitalInfoTable {
+    text-align: left;
+    margin: auto;
+    font-size: 1.1rem;
+    margin-top: 100px;
+}
+
+.capitalInfoTable thead {
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.capitalInfoTable td {
+    padding: 10px 70px;
+}
+
+.capitalInfoTable tbody td {
+    color: white;
+}
+
+.capitalInfoTable tbody td:nth-child(odd) {
+    color: rgb(46, 45, 45);
+}
+
+.capitalInfoTable tbody td:nth-child(even) {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
