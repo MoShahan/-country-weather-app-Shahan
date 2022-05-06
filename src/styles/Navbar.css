@@ -1,0 +1,22 @@
+.navbar {
+    background-color: rgb(81, 71, 226);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.nav-heading {
+    display: flex;
+}
+
+.nav-heading>h1 {
+    align-self: center;
+    padding-left: 30px;
+    color: rgb(5, 23, 39);
+}
+
+.weather-icon {
+    height: 100px;
+    padding-left: 40px;
+}

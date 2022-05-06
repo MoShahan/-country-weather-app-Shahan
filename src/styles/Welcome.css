@@ -1,0 +1,58 @@
+.welcomeBody {
+    background-image: url("../images/weather-welcome-bg.jpg");
+    height: 100vh;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcomeTitle {
+    margin: 0px 250px;
+    padding: 30px 0;
+    color: rgb(25, 78, 158);
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 14px;
+}
+
+.homeButtonBox {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.homeButton {
+    text-align: center;
+    background-color: rgba(121, 114, 221, 0.664);
+    padding: 30px;
+    width: 200px;
+    transition: all 0.3s;
+    border-radius: 14px;
+    color: rgb(13, 3, 70);
+    text-decoration: none;
+}
+
+.homeButton:hover {
+    transform: scale(1.2);
+    color: rgb(228, 225, 225);
+    background-color: rgb(112, 49, 230);
+    font-size: large;
+}
+
+.welcomeInfo {
+    background-color: rgba(139, 128, 240, 0.911);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin: 120px 200px;
+    border-radius: 14px;
+    color: rgb(4, 29, 66);
+}
+
+.welcomeFeatures {
+    /* background-color: lightgreen; */
+    text-align: left;
+}

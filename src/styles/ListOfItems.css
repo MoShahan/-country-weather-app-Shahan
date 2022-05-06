@@ -1,0 +1,59 @@
+.listBody {
+    background-image: url("../images/weather-country-bg.jpg");
+    height: max-content;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+table {
+    margin-top: 10px;
+    border-radius: 14px;
+}
+
+thead {
+    background-color: black;
+}
+
+thead td {
+    background-color: rgb(3, 13, 48);
+    padding: 20px;
+    margin: 0 30px;
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+tbody td {
+    background-color: rgb(115, 134, 241);
+    padding: 10px 50px;
+}
+
+tbody img {
+    height: 100px;
+}
+
+td button {
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+    border: 5px solid rgb(72, 70, 187);
+    transition: all 0.3s;
+    background-color: rgb(184, 184, 245);
+}
+
+td button:hover {
+    transform: scale(1.2);
+    background-color: rgb(72, 37, 226);
+    color: aliceblue;
+}
